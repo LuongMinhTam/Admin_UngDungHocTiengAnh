@@ -1,0 +1,70 @@
+/* TabBar.css */
+.tab-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tabbar {
+    width: 250px; /* Width ngắn của TabBar */
+    height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+    background-image: linear-gradient(#015C92, #2D83B5, #89CCF6);
+
+  }
+  
+  .tabbar .top_section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .tabbar .logo {
+    margin-right: 10px;
+    display: 'flex';
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  
+  
+.tabbar .tabbar-items {
+    padding: 1.5em;
+    padding-left: 2em;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+  
+  .tabbar .link {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .tabbar .link .icon {
+    margin-right: 10px;
+  }
+
+  .tabbar .link .link_text {
+    font-size: x-large;
+    font-weight: 400;
+    margin-left: 15px;
+  }
+  
+  .tabbar .link.active {
+    background-color: #c8d6e5;
+  }
+  
+  .tabbar .link:hover {
+    background-color: #e8f1fa;
+  }
+  
